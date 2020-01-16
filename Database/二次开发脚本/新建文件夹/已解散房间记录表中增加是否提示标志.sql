@@ -1,0 +1,3 @@
+
+
+ALTER TABLE dbo.TBuyGameDeskRecordDelete ADD bNotice TINYINT DEFAULT(1) NOT NULL

@@ -1,0 +1,4 @@
+ALTER TABLE dbo.TContestInfo ADD KickTime INT DEFAULT(5) NOT NULL 
+
+
+ALTER TABLE dbo.TContestUserRecord ADD NetCutTime DATETIME

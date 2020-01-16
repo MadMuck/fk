@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Web_Config ADD CHECK (EveryJewelForMinutes>0 and EveryJewelForMinutes < 241)

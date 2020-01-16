@@ -1,0 +1,5 @@
+
+
+ALTER TABLE dbo.TVIPDeskToCount ADD GameID INT		--游戏ID
+
+ALTER TABLE dbo.TVIPDeskToCount ADD AANeedJewels INT DEFAULT(0) NOT NULL	--AA制价格

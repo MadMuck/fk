@@ -1,0 +1,1 @@
+ALTER TABLE dbo.TGameServerInfo ADD CanPalyback BIT DEFAULT(0)

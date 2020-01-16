@@ -1,0 +1,1 @@
+alter table TUserInfo add Multiple int ---在TUserInfo表中新增一列  表示用户胡牌的最大倍数  麻将专用

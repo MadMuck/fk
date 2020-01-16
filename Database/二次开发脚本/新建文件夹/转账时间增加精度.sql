@@ -1,0 +1,1 @@
+alter table Web_TransLog alter column TransTime datetime

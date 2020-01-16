@@ -1,0 +1,2 @@
+
+ALTER TABLE dbo.TGameRoomInfo ADD LocationLimit INT DEFAULT(0) NOT NULL ,SameIPNotice BIT DEFAULT(0) NOT NULL ,LocationNotice BIT DEFAULT(0) NOT NULL 
