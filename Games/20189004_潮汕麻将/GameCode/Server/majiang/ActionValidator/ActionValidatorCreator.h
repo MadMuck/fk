@@ -1,7 +1,0 @@
-﻿#ifndef ACTION_VALIDATOR_CREATOR_H
-#define ACTION_VALIDATOR_CREATOR_H
-
-
-
-
-#endif
