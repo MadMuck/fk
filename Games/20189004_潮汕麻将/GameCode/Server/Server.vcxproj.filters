@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1de6fafc-db7e-4037-9cb7-192025ff8c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang">
+      <UniqueIdentifier>{9a5485c1-5d6e-420f-800e-c46ac87e64b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\ActionValidator">
+      <UniqueIdentifier>{5088eded-6c95-4b96-8584-e441c44837ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\BankerSelector">
+      <UniqueIdentifier>{6c3e74e1-629b-4f53-bb12-9f42a3693468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Card">
+      <UniqueIdentifier>{282ae806-b070-4b0a-b508-d02e7b9206c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\CardBlocks">
+      <UniqueIdentifier>{ecb0bc48-e6ab-44ac-a5b6-4c466af39daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Common">
+      <UniqueIdentifier>{53f6355d-e2d6-48ab-be8d-19bc70ec5f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Extension">
+      <UniqueIdentifier>{3f3cfdc2-c779-441d-9403-27e253518eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\ExtensionObject">
+      <UniqueIdentifier>{2c9fd00f-2a97-4b0b-bfc5-6f3256bffb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\GameContext">
+      <UniqueIdentifier>{7dc64015-c72c-4809-b5e9-cfdcca9bc214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\GameDirection">
+      <UniqueIdentifier>{a677f797-11b1-4270-80fa-f52245e0fe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\GameProcedure">
+      <UniqueIdentifier>{e241daa8-f3da-49da-8409-4107e90681ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\GamePlayerConnector">
+      <UniqueIdentifier>{3d42ea22-03fd-46e7-b5a1-1695ad136880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\HuPattern">
+      <UniqueIdentifier>{c710a577-3282-44f9-8f6a-e5d2672613eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Interception">
+      <UniqueIdentifier>{86fdc3df-9280-4afd-89bf-37051ac49681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Liquidation">
+      <UniqueIdentifier>{d3304b0d-691e-418d-84db-babb304f88ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Logger">
+      <UniqueIdentifier>{d1271636-0081-4813-954e-45c82ce6b74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Notification">
+      <UniqueIdentifier>{f6267dc6-fdb3-4878-8b35-b57c40617a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\PatternFinder">
+      <UniqueIdentifier>{52ed4a08-9b6c-4606-8807-51bbff9f7f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Player">
+      <UniqueIdentifier>{b7fcf7a9-618c-485d-9326-72c21db34c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Procedure">
+      <UniqueIdentifier>{419205d7-fb9f-4739-ab96-7c247581e660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="majiang\Timer">
+      <UniqueIdentifier>{6711f90f-5108-4d02-bc03-8581d45cb128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Specialize">
+      <UniqueIdentifier>{fbbb6291-5480-4ebe-bcb5-8bb5058810f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MessageDelegate">
+      <UniqueIdentifier>{174e106d-920d-4e20-b6fe-e35d29be13ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SRC">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HEADERS">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MessageDelegate\SpecNotification">
+      <UniqueIdentifier>{6ef30189-9f05-4dc6-8d69-8afa0edc418e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerManage.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SHSrvDLL.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CardCfg.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\ActionValidator\ActionValidator.cpp">
+      <Filter>majiang\ActionValidator</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\ActionValidator\ActionValidatorCreator.cpp">
+      <Filter>majiang\ActionValidator</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\BankerSelector\BankerSelector.cpp">
+      <Filter>majiang\BankerSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\BankerSelector\BankerSelectorCreator.cpp">
+      <Filter>majiang\BankerSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Card\Card.cpp">
+      <Filter>majiang\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\CardBlocks\CardBlocks.cpp">
+      <Filter>majiang\CardBlocks</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\CardBlocks\CardBlocksCreator.cpp">
+      <Filter>majiang\CardBlocks</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Common\Restatistic.cpp">
+      <Filter>majiang\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Common\Util.cpp">
+      <Filter>majiang\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionActionValidator.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionBankerSelector.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionCardBlocks.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionGameDirection.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionGameOptions.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionGamePlayerConnector.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionHuAction.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionHuPattern.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionInterceptableCards.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionLiquidation.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionLogger.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionMessageDelegate.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionPlayer.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionProcedureController.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Extension\ExtensionTimer.cpp">
+      <Filter>majiang\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\ExtensionObject\ExtensionID.cpp">
+      <Filter>majiang\ExtensionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\ExtensionObject\ExtensionObject.cpp">
+      <Filter>majiang\ExtensionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameContext\GameContext.cpp">
+      <Filter>majiang\GameContext</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameContext\GameContextCreator.cpp">
+      <Filter>majiang\GameContext</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameDirection\GameDirection.cpp">
+      <Filter>majiang\GameDirection</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameDirection\GameDirectionCreator.cpp">
+      <Filter>majiang\GameDirection</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureAfterGetCard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureDistributeCard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureGameStart.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureInterceptCard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureLiquidation.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureNormalDrawCard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureReadyHandDiscard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureWaitSendCard.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GamePlayerConnector\GamePlayerConnector.cpp">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GamePlayerConnector\GamePlayerConnectorCreator.cpp">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GamePlayerConnector\MessageDelegate.cpp">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GamePlayerConnector\Question.cpp">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\HuPattern\HuPatternMatch.cpp">
+      <Filter>majiang\HuPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\HuPattern\HuPatternSet.cpp">
+      <Filter>majiang\HuPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\HuPattern\PatternListGetterCommon.cpp">
+      <Filter>majiang\HuPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Interception\Interception.cpp">
+      <Filter>majiang\Interception</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Liquidation\Liquidation.cpp">
+      <Filter>majiang\Liquidation</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Logger\Logger.cpp">
+      <Filter>majiang\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationDiscardCard.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationDistributeCard.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationFirstRun.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationGameBegin.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationInterceptionResult.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationLiquidation.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\NotificationNormalDrawCard.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\QuestionInterception.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\QuestionReadyHandDiscard.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\CardStatistic.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\Pattern.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternCombination.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternConst.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternFinder.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternIntcRun.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternIntcSet.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternJokerConst.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternJokerList.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternJokerRun.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternJokerSet.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternPairs.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternResultCards.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternResultInterception.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternRun.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternSet.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Player\Player.cpp">
+      <Filter>majiang\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Player\PlayerCreator.cpp">
+      <Filter>majiang\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Procedure\Procedure.cpp">
+      <Filter>majiang\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Procedure\ProcedureController.cpp">
+      <Filter>majiang\Procedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Timer\Timer.cpp">
+      <Filter>majiang\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\AdapterUtil.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\PlayerActionDelegate.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\ScoreItemGang.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\ScoreItemHu.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\GameProcedure\ProcedureDetermineIntercept.cpp">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\Notification\QuestionWaitDiscard.cpp">
+      <Filter>majiang\Notification</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternNormalWin.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="majiang\PatternFinder\PatternShiSanYao.cpp">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\ProcedureFanMa.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Specialize\ScoreItemPaiTou.cpp">
+      <Filter>Specialize</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SHSrvDLL.def">
+      <Filter>SRC</Filter>
+    </None>
+    <None Include="res\SHSrvDLL.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManage.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="CardCfg.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\ActionValidator\ActionValidator.h">
+      <Filter>majiang\ActionValidator</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\ActionValidator\ActionValidatorCreator.h">
+      <Filter>majiang\ActionValidator</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\BankerSelector\BankerSelector.h">
+      <Filter>majiang\BankerSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\BankerSelector\BankerSelectorCreator.h">
+      <Filter>majiang\BankerSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Card\Card.h">
+      <Filter>majiang\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Card\CardInfo.h">
+      <Filter>majiang\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\CardBlocks\CardBlocks.h">
+      <Filter>majiang\CardBlocks</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\CardBlocks\CardBlocksCreator.h">
+      <Filter>majiang\CardBlocks</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\PlayerPos.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\RefCntObj.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\Restatistic.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\Statistic.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\Util.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Common\UtilTemplate.h">
+      <Filter>majiang\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionActionValidator.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionBankerSelector.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionCardBlocks.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionGameDirection.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionGameOptions.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionGamePlayerConnector.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionHuAction.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionHuPattern.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionInterceptableCards.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionLiquidation.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionLogger.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionMessageDelegate.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionPlayer.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionProcedureController.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionTimer.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\ExtensionObject\ExtensionID.h">
+      <Filter>majiang\ExtensionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\ExtensionObject\ExtensionObject.h">
+      <Filter>majiang\ExtensionObject</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameContext\GameContext.h">
+      <Filter>majiang\GameContext</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameContext\GameContextCreator.h">
+      <Filter>majiang\GameContext</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameContext\GameContextCreatorImpl.h">
+      <Filter>majiang\GameContext</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameDirection\GameDirection.h">
+      <Filter>majiang\GameDirection</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameDirection\GameDirectionCreator.h">
+      <Filter>majiang\GameDirection</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureAfterGetCard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureDistributeCard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureGameStart.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureInterceptCard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureLiquidation.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureNormalDrawCard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureReadyHandDiscard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureWaitSendCard.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\GamePlayerConnector.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\GamePlayerConnectorCreator.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\MessageDelegate.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\MessageSender.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\Notification.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GamePlayerConnector\Question.h">
+      <Filter>majiang\GamePlayerConnector</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\HuPatternMatch.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\HuPatternSet.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\HuType.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\PatternListGetter.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\PatternListGetterCommon.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Interception\Interception.h">
+      <Filter>majiang\Interception</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Liquidation\Liquidation.h">
+      <Filter>majiang\Liquidation</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Liquidation\ScoreItem.h">
+      <Filter>majiang\Liquidation</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Logger\Logger.h">
+      <Filter>majiang\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationDiscardCard.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationDistributeCard.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationFirstRun.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationGameBegin.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationInterceptionResult.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationLiquidation.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\NotificationNormalDrawCard.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\QuestionInterception.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\QuestionReadyHandDiscard.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\CardStatistic.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\Pattern.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternCombination.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternConst.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternFinder.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternIntcRun.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternIntcSet.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternJokerConst.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternJokerList.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternJokerRun.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternJokerSet.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternPairs.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternResultCards.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternResultInterception.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternRun.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternSet.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternType.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Player\Player.h">
+      <Filter>majiang\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Player\PlayerCreator.h">
+      <Filter>majiang\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Procedure\Procedure.h">
+      <Filter>majiang\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Procedure\ProcedureChangedDelegate.h">
+      <Filter>majiang\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Procedure\ProcedureController.h">
+      <Filter>majiang\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Procedure\ProcedureType.h">
+      <Filter>majiang\Procedure</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Timer\Timer.h">
+      <Filter>majiang\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\AdapterUtil.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\DrawCardValidator.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionGameParam.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\GameDef.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\PlayerActionDelegate.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\PlayerStatusDef.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ScoreItemGang.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ScoreItemHu.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\WinType.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecCardScoreDelegate.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecScoreItemListDelegate.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecProcedureJumpDelegate.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecInterceptionValidator.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMsgProxy.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionGameRunningData.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\HuPattern\PatternListGetterIgnore.h">
+      <Filter>majiang\HuPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\GameProcedure\ProcedureDetermineIntercept.h">
+      <Filter>majiang\GameProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ProcedureQiangGang.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionGameStatistic.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\GameRuleDef.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecInterceptCardQuestionDelegate.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\upgrademessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\UpgradeMessageEx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateAgreeToPlay.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\PlayerActionDelegateListener.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateEnableActionDelegate.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateWaitDiscard.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Notification\QuestionWaitDiscard.h">
+      <Filter>majiang\Notification</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateWaitDiscardReadyHand.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateGameBegin.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateDrawCard.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateDistributeCard.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionQueMen.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateDiscardResult.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateInterception.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateInterceptionResult.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateLiquidation.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateFirstRound.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecGameDirection.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionScoreItemList.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\SpecNotification\QuestionDingQue.h">
+      <Filter>MessageDelegate\SpecNotification</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\SpecNotification\QuestionHuanZhang.h">
+      <Filter>MessageDelegate\SpecNotification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ProcedureDingQue.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateDingQue.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecProcedureTypeDef.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ProcedureHuanZhang.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateHuanZhang.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\MsgDelegateHuanZhangFinish.h">
+      <Filter>MessageDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDelegate\SpecNotification\NotificationHuanZhangFinish.h">
+      <Filter>MessageDelegate\SpecNotification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ScoreTypeDef.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionPlayerReadyHand.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\SpecBeforeLiquidation.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionAbandonedAction.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\Extension\ExtensionInvalidInterception.h">
+      <Filter>majiang\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\GangHandler.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionHuanZhang.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\NormalWinCheckUtil.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternNormalWin.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionMultiple.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionHaiDi.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="msgbase.h">
+      <Filter>HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="majiang\PatternFinder\PatternShiSanYao.h">
+      <Filter>majiang\PatternFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ProcedureFanMa.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ExtensionFanMa.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Specialize\ScoreItemPaiTou.h">
+      <Filter>Specialize</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SHSrvDLL.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
